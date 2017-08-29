@@ -19,4 +19,4 @@ def test_strava_api():
     testing strava api
     :return:
     """
-    pass
+
