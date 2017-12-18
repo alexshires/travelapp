@@ -6,7 +6,7 @@ Demonstration script to test functionality
 
 import requests
 
-
+from stravalib.client import Client
 from utils import get_strava_key, get_tfl_key, get_google_key
 
 strava_client, strava_token = get_strava_key()
@@ -19,4 +19,5 @@ def test_strava_api():
     testing strava api
     :return:
     """
+
 
